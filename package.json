@@ -1,0 +1,31 @@
+{
+  "name": "project-management",
+  "version": "1.0.0",
+  "description": "Project management tool with React, Node-Express, GraphQL & MongoDB",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server/index.js",
+    "dev": "nodemon server/index.js"
+  },
+  "keywords": [
+    "React",
+    "GraphQL",
+    "Node",
+    "Express",
+    "MongoDB"
+  ],
+  "author": "Hariprasad",
+  "license": "ISC",
+  "dependencies": {
+    "colors": "^1.4.0",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "express-graphql": "^0.12.0",
+    "graphql": "^16.8.0",
+    "mongoose": "^7.5.0"
+  },
+  "devDependencies": {
+    "dotenv": "^16.3.1",
+    "nodemon": "^3.0.1"
+  }
+}
